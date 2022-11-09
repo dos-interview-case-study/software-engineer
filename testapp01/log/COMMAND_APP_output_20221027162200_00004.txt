@@ -3,7 +3,7 @@ REM script to copy file to share
 
 set myErrors=0 
 
-copy D:\temp\case_study\testapp01\output\test.txt \\rm15fs01\crms\ 
+copy \testapp01\output\test.txt \\rm15fs01\crms\ 
 The network path was not found.
         0 file(s) copied.
 
