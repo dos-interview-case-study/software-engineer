@@ -7,7 +7,9 @@ In Production Operations we use an Enterprise Scheduling Application called Cont
 Note: This is meant to reflect a “real world” scenario but has been simplified for case study purposes. Accounts and passwords are not real, and scripts and logs have been adapted for this purpose. Timestamps may not match a real job runtime and should not affect analysis.
 
 Exercise 1:
-Open the document titled CONTROLM.docx and analyze each jobs status. Files associated with each job can be found in the folders. For instance, you can view the output logs of some jobs in the folder \testdb01\log. 
+Open the document titled CONTROLM.docx and analyze each jobs status. 
+![CTLM-GUI](https://user-images.githubusercontent.com/117833755/200856215-404d664f-8dc0-49c1-9ae3-3c27261f7543.png)
+Files associated with each job can be found in the folders. For instance, you can view the output logs of some jobs in the folder \testdb01\log. 
 Identify and document any issues you find in your analysis and explain how you would resolve the issues to allow the job stream to complete successfully. 
 Document any suggestions you have for improving the jobs and scripts. 
 
