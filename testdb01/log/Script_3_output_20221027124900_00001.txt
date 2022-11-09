@@ -5,13 +5,13 @@ set myErrors=0
 
 REM use input files to create output 
 
-for /F "tokens=* delims=*" %G in (D:\temp\case_study\testapp01\input\sql1.txt) do () 
-The system cannot find the file D:\temp\case_study\testapp01\input\sql1.txt.
+for /F "tokens=* delims=*" %G in (\testapp01\input\sql1.txt) do () 
+The system cannot find the file \testapp01\input\sql1.txt.
 
-for /F "tokens=* delims=*" %G in (D:\temp\case_study\testapp01\input\sql2.txt) do () 
-The system cannot find the file D:\temp\case_study\testapp01\input\sql2.txt.
+for /F "tokens=* delims=*" %G in (\testapp01\input\sql2.txt) do () 
+The system cannot find the file \testapp01\input\sql2.txt.
 
-if not exist D:\temp\case_study\testapp01\output\analysis.csv set /A myErrors+=1 
+if not exist \testapp01\output\analysis.csv set /A myErrors+=1 
 
 exit /b 1 
 
