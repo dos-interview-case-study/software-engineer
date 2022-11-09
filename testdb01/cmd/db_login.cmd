@@ -1,4 +1,5 @@
 REM script to set passwords and connectstrings to login to db
+
 REM accounts and passwords in this file are not real and are only for demonstration and case study purposes. in a real production environment passwords are encrypted and retrieved from a secure secrets store.
 
 set DB_SID=GFMP
