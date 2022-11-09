@@ -12,5 +12,5 @@ Identify and document any issues you find in your analysis and explain how you w
 Document any suggestions you have for improving the jobs and scripts. 
 
 Exercise 2:
-Scenario: Rick works out of Washington, DC and is on the washdc.test.lab domain. Morty works out of Charleston, SC and is on the chs.test.lab domain. Rick needs an important file copied from a Charleston server to his shared folder after hours, so Morty uses a control-m job to schedule the copy. The share location has been verified to exist, and the account used to access the location is verified to have the correct permissions.
+Scenario: Rick works out of Washington, DC and is on the washdc.test.lab domain. Morty works out of Charleston, SC and is on the chs.test.lab domain. Rick needs an important file copied from a Charleston server to his shared folder after hours, so Morty uses a control-m job to schedule the copy. The share location has been verified to exist via a screenshot taken by Rick, and the account used to access the location was verified by security personnel to have the correct permissions.
 Open the document titled Copy_to_share.md and analyze the failed job. What might the issue be?
