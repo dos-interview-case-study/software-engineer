@@ -7,7 +7,7 @@ REM get password and connectstring
 
 d:
 
-call d:\temp\case_study\testdb01\cmd\db_login.cmd opstest_ro 
+call \testdb01\cmd\db_login.cmd opstest_ro 
 
 REM script to set passwords and connectstrings to login to db 
 
