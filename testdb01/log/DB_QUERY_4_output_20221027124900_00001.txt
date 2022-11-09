@@ -7,7 +7,7 @@ REM get password
 
 d:
 
-call d:\temp\case_study\testdb01\cmd\db_login.cmd opstest
+call \testdb01\cmd\db_login.cmd opstest
 
 REM script to set passwords and connectstrings to login to db 
 
@@ -16,7 +16,7 @@ db_login: Successfully set PASS_WORD for opstest
 
 REM run sql 
 
-sqlplus -l opstest/strongPass1@GFMP @D:\scripts\mydb\sql\query4.sql 
+sqlplus -l opstest/strongPass1@GFMP @\testdb01\sql\query4.sql 
 
 SQL*Plus: Release 19.0.0.0.0 - Production on Thu Oct 27 12:49:23 2022
 Version 19.15.0.0.0
@@ -29,4 +29,4 @@ Connected to:
 Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
 Version 19.15.0.0.0
 
-SP2-0310: unable to open file "D:\scripts\mydb\sql\query4.sql"
+SP2-0310: unable to open file "testdb01\sql\query4.sql"
