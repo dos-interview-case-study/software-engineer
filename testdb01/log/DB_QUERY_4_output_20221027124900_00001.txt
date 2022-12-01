@@ -29,4 +29,4 @@ Connected to:
 Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
 Version 19.15.0.0.0
 
-SP2-0310: unable to open file "testdb01\sqll\query44.sql"
+SP2-0310: unable to open file "testdb01\sqll\query4.sql"
